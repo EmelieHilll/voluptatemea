@@ -1,0 +1,55 @@
+{
+  "name": "voluptatemea",
+  "description": "user-agent-based polyfill combinator",
+  "version": "1.0.0",
+  "dependencies": {
+    "debug": "*",
+    "mz": "1",
+    "bluebird": "2",
+    "native-or-bluebird": "1",
+    "mkdirp": "0",
+    "rimraf": "2",
+    "useragent": "2",
+    "semver": "4",
+    "polyfills-db": "1",
+    "uglify-js": "2",
+    "lru-cache": "2"
+  },
+  "devDependencies": {
+    "co": "3",
+    "cogent": "1",
+    "mocha": "1",
+    "istanbul": "0"
+  },
+  "scripts": {
+    "update": "node --harmony-generators install",
+    "test": "mocha --reporter spec --bail --timeout 10s",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --timeout 10s",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot --timeout 10s"
+  },
+  "main": "lib",
+  "author": "DayneSmith",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EmelieHilll/voluptatemea.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "quis",
+    "impedit",
+    "combinator",
+    "user-agent",
+    "modi",
+    "dignissimos",
+    "doloribus",
+    "voluptatem"
+  ],
+  "files": [
+    "lib",
+    "polyfills"
+  ],
+  "bugs": {
+    "url": "https://github.com/EmelieHilll/voluptatemea.git/issues"
+  },
+  "homepage": "https://github.com/EmelieHilll/voluptatemea.git"
+}
